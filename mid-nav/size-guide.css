@@ -1,0 +1,17 @@
+* {
+    background-image: url(../images/beige-tiles.png);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.guide {
+    width: 900px;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-left: 210px;
+    text-align: start;    
+}
+li{
+    text-align: start;
+}

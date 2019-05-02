@@ -1,0 +1,96 @@
+body {
+    background-image: url(../images/beige-tiles.png);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#main {
+    text-align: center;
+    margin-left: 120px;
+}
+
+.topdetails {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: auto;
+    padding: 0.5px;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 350px;
+}
+.gallery:hover {
+border-color:rgb(173, 253, 254);
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    margin-right: 27px;
+    margin-left: 27px;
+    height: 300px;
+}
+.footer-logo {
+    width: 190px;
+}
+.bottom-nav {
+    overflow: hidden;
+    width: auto;
+    margin-right: 210px;
+}
+
+.bottom-nav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+.bottom-nav a:hover {
+    color: black;
+    text-shadow: 1px 1px 1px  rgb(173, 253, 254);
+}
+li{
+    list-style: none;
+}
+.column1 {
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.column3 {
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+#resize{
+margin-top: 70px;
+}
+.fab{
+    color: black;
+}

@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/beige-tiles.png);
+    font-family:'Noto Sans', sans-serif;
+}
+
+p.a {
+    width: 600px;
+    text-align: start;
+    font-size: 14px;
+    color: rgb(107, 104, 104);
+}
+
+#third-page {
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.clip {
+    border: 1px solid rgb(43, 251, 248);
+    box-shadow: 0.5px 0.5px 20px;
+    padding: 10px;
+}
+
+.unclip {
+    border: 1px solid rgb(43, 251, 248);
+    box-shadow: 0.5px 0.5px 20px;
+    padding: 10px;
+}
+
+/* .topdetails {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 0.5px;
+} */

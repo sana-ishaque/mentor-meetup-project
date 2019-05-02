@@ -1,0 +1,67 @@
+* {
+    background-image: url(beige-tiles.png);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(171, 252, 253);
+    width: 470px;
+    height: 520px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(214, 212, 212);
+}
+
+input[type=text] {
+    width: 120%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+input[type=password] {
+    width: 120%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+input[type=submit] {
+    width: 120%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: block;
+    background-color: white;
+    border: 1px solid rgb(138, 188, 189);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(171, 252, 253);
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgba(2, 82, 92, 0.534);
+}

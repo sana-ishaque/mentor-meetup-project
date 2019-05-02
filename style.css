@@ -1,0 +1,25 @@
+#firstpage{
+    background-image: url(images/beige-tiles.png);
+text-align: center;
+}
+.center {
+    display: block;
+    width: 420px;
+    height: 320px;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.center:hover {
+    width: 450px;
+    height: 320px;
+    transform: rotate(360deg);
+}
+.detail{
+    font-weight: 800;
+    font-size: 23px;
+    margin-left: -35px;
+}
